@@ -1,4 +1,4 @@
-﻿namespace NZWalks.Api.Models.Domain
+﻿namespace NZWalks.Api.Models.DTO
 {
     public class Walk
     {
@@ -7,7 +7,7 @@
         public double Length { get; set; }
         public Guid RegionId { get; set; }
         public Guid WalkDifficultyId { get; set; }
-        
+
         //Navigation Properties
 
         //connecting back to region
